@@ -4,12 +4,13 @@
 ###Another Middleman Template?!
 The purpose of this boilerplate is to be a static Rack-based generator for easy Heroku deployment that functions on the lowest-common-denominator: no SLIM, no HAML, no Coffeescript, no Bootstrap. 
 
-Straight-forward modular stylesheet folder structure with built-in SEO, image-optimization, compression and LiveReload. Set-up and start coding.
+Straight-forward modular stylesheet folder structure with built-in SEO, image-optimization, file compression, [sass-mq](https://github.com/sass-mq/sass-mq), and LiveReload. Set-up and start coding.
 
-This template could be great for you if:
+###This template could be great for you if:
 1. Your project is primarily static, front-end focused 
 2. You deploy to Heroku
 3. You want a basic SEO set-up and performance optimization
+4. You use sass-mq <https://github.com/sass-mq/sass-mq>
 
 ##Features
 - Basic SEO infrastructure (meta-tags, browser-specific)
