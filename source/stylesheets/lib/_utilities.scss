@@ -1,0 +1,11 @@
+.u-mobileExclude {
+    @include mq($until: tablet) {
+        display: none;
+    }
+}
+
+.u-mobileOnly {
+    @include mq($from: tablet) {
+        display: none;
+    }
+}

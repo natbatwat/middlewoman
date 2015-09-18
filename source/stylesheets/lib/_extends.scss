@@ -1,0 +1,25 @@
+// @extend is a useful little sass function that grabs code from somewhere else
+
+// using the standard .class format with extends can be dangerous!
+// it can mean that things which shouldn't share styles do
+
+// %class does not print to the compiled stylesheet! 
+
+// if we use the %class format it means that all shared styles are grouped 
+// however that group only shares the extended styles, nothing else
+
+
+%ulReset {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+%noHighlight {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    -o-user-select: none;
+    user-select: none;   
+}
