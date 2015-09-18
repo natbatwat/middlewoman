@@ -43,5 +43,7 @@ Straight-forward modular stylesheet folder structure with built-in SEO, image-op
 
 5. Run `middleman server`
 
+6. Change ENV variables in the `.env` file. Add `.env` into your `.gitignore` file if you wish!
+
 ##TO DO
 - Front-end testing
