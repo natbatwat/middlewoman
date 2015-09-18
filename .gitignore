@@ -22,7 +22,4 @@ Ignore all caches
 # Ignore bower components
 bower_components
 
-# Ignore dotenv files
-.env
-
 /tmp
