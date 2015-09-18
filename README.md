@@ -1,29 +1,31 @@
-#Work in progress.
+#Middlewoman
 
-The purpose of this boilerplate is to be a **_one-click static generator_** using a combination of __Middleman/Rack__ build with direct Heroku deployment. It places emphasis on __front-end testing__, __performance optimization__ and being __lightweight__.
+
+###Another Middleman Template?!
+The purpose of this boilerplate is to be a static Rack-based generator for easy Heroku deployment that functions on the lowest-common-denominator: no SLIM, no HAML, no Coffeescript, no Bootstrap. 
+
+Straight-forward modular stylesheet folder structure with built-in SEO, image-optimization, compression and LiveReload. Set-up and start coding.
+
+This template could be great for you if:
+1. Your project is primarily static, front-end focused 
+2. You deploy to Heroku
+3. You want a basic SEO set-up and performance optimization
 
 ##Features
-- One-step deployment to Heroku
-- Basic SEO infrastructure
+- Basic SEO infrastructure (meta-tags, browser-specific)
+- .env file to store environmental variables for all stages of development
 - Image optimization
-- LiveReload
+- LiveReload during development
 - Gzip compression
 - 404 page
-- Build minification of CSS/ JS
-- Modular Front-end folder architecture
+- Automated sitemap and robots.txt generator
+- Build minification of CSS/ JS/ HTML
 - Normalize.css
 - Modernizer.js
-- Front-end testing (W.I.P)
-
-##What this does NOT include
-- Bootstrap
-- HAML/ SLIM
-
-##Dependencies
-
-##Pre-requisites 
-- Heroku Toolbelt
 
 ##Directions
 - run `bundle install` (try `bundle update` instead if there are gem version conflicts)
 - run `middleman build` (note: the build folder is in `.gitignore` and not pushed)
+
+##TO DO
+- Front-end testing
