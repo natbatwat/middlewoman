@@ -2,7 +2,7 @@
 
 
 ###Another Middleman Template?!
-The purpose of this boilerplate is to be a static Rack-based generator for easy Heroku deployment that functions on the lowest-common-denominator: no SLIM, no HAML, no Coffeescript, no Bootstrap. 
+> The purpose of this boilerplate is to be a static Rack-based generator for easy Heroku deployment that functions on the lowest-common-denominator: no SLIM, no HAML, no Coffeescript, no Bootstrap. 
 
 Straight-forward modular stylesheet folder structure with built-in SEO, image-optimization, file compression, [sass-mq](https://github.com/sass-mq/sass-mq), and LiveReload. Set-up and start coding.
 
@@ -24,9 +24,24 @@ Straight-forward modular stylesheet folder structure with built-in SEO, image-op
 - Normalize.css
 - Modernizer.js
 
-##Directions
-- run `bundle install` (try `bundle update` instead if there are gem version conflicts)
-- run `middleman build` (note: the build folder is in `.gitignore` and not pushed)
+##Getting Started
+
+1. Install **middlewoman** as Middleman template.
+
+    ```bash
+    git clone https://github.com/natbatwat/middlewoman.git ~/.middleman/middlewoman
+    ```
+
+2.  Initialize a new Middleman project with the **middlewoman** template
+
+    ```bash
+    middleman init my_project_name --template=middlewoman
+    cd my_project_name
+    ```
+
+4. Install required gems: `bundle update` `bundle install`
+
+5. Run `middleman server`
 
 ##TO DO
 - Front-end testing
